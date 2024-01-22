@@ -23,11 +23,16 @@ Récupérer un projet symfony:
 Si on souhaite remplir les tables de fausses données:
 -symphony console database:fixtures:load
 
-Mise à jour de symfony CLI avec scoop:
--scoop update symfony-cli
+## Mise à jour de symfony CLI avec scoop:
+`scoop update symfony-cli`
 
-Supprimer la base de données:
--doctrine:database:drop
+## Supprimer la base de données:
+`doctrine:database:drop`
 
-Pour avoir l'aide d'une commande:
--symfony console commande (par exemple, symfony console make)
+## Pour avoir l'aide d'une commande:
+`symfony console commande` (par exemple, symfony console make)
+
+## Bundle pour paginer:
+`composer require knplabs/knp-paginator-bundle`
+## Bundle easyAdmin:
+`composer require easycorp/easyadmin-bundle`
