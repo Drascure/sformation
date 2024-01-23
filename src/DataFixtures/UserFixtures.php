@@ -24,9 +24,9 @@ class UserFixtures extends Fixture
             $user->setPassword($faker->password());
 
 
-            $manager->persist($user);
+            // $manager->persist($user);
         endfor;
 
-        $manager->flush();
+        // $manager->flush();
     }
 }
