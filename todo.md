@@ -36,3 +36,7 @@ Si on souhaite remplir les tables de fausses données:
 `composer require knplabs/knp-paginator-bundle`
 ## Bundle easyAdmin:
 `composer require easycorp/easyadmin-bundle`
+
+## Free front-end:
+https://freefrontend.com/
+

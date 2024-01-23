@@ -24,11 +24,11 @@ class HomeController extends AbstractController
             10
         );
         // $formations = $formationRepository->findAll();
-        
+
         return $this->render('home/index.html.twig', [
             'formations' => $formations,
         ]);
-   
+
         // return $this->render('home/index.html.twig', [
         //     'formations' => $formationRepository->findAll(),
         // ]);
